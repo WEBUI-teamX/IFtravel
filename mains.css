@@ -1,0 +1,327 @@
+body {
+    font-family: Tahoma,sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0;
+}
+
+/*HEADER*/
+
+header {
+background-image: url(image/wpid-vech-rn-y-vano_i_1.jpg);
+background-size: cover;
+max-width: 100%;
+height: 650px;
+box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+margin: 0px;
+padding: 0px;
+}
+
+div {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/*nav*/
+nav {
+    float: right;
+    display: inline-block;
+    text-align: right;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    height: 40px;
+}
+
+ul > li {
+    display: inline-block;
+    height: auto;
+    font-family: "MuseoSans";
+    font-size: 15px;
+    cursor: pointer;
+}
+
+ul li a {
+    line-height: 10px;
+    padding: 10px;
+    color: gainsboro;
+text-decoration: none;
+}
+
+ul li a:hover {
+    color: lightgreen;
+text-decoration: overline;
+}
+   
+
+
+/*END NAV*/
+
+/*logotyp*/
+
+.logo {
+     margin: 0px;
+    padding-bottom: 10px;
+    padding-left: 110px;
+    padding-right: 10px;
+    padding-top: 50px;
+    
+}
+
+.logo_title h4 {
+    text-align: left;
+    margin: 0px;
+    padding: 5px 0px 5px 0px;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: MuseoSans,Helvetica,Arial,sans-serif;
+}
+
+.logo_title h2 {
+    text-align: left; 
+    margin: 0px;
+    padding: 5px 0px 5px 0px;
+    color: aliceblue;
+    font-size: 25px;
+    font-family: MuseoSans,Helvetica,Arial,sans-serif;
+}
+/*PAGE MAIN */
+.page-main {
+    padding: 0px;
+    min-height: 1000px;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-family: MuseoSans,Helvetica,Arial,sans-serif;
+font-size: 16px;
+color: #1A1919;
+background-color: #F9F2EC;
+}
+
+.page-main a {
+font-family: Calibri, Trebuchet MS, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #009933;
+text-decoration: none;
+}
+
+.page-main a:hover {
+color: #99FF99;}
+
+
+.row {
+    margin-left: 15px;
+    margin-right: 15px;
+    box-sizing: border-box;
+}
+
+.col-md-12 {
+    width: auto;
+    float: left;
+    position: relative;
+min-height: 1px;
+padding-left: 0px;
+padding-right: 0px;
+    padding-top: 20px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+
+.col-sm-5 {
+    width: 31.6667%;
+    float: left;
+        position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+.about {
+background-color: white;
+padding: 10px;}
+
+.pageName {
+    margin: 0;
+    padding: 0 0 0 12px;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    font-family: Calibri, Trebuchet MS, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+    background-color: #009933;
+    text-align: center;
+    }
+
+.text-label {
+    font-weight: 700;
+    box-sizing: border-box;
+}
+
+ul {list-style: none;
+margin: 0px;
+    }
+
+.kmenu a {
+     color: lawngreen;
+    font-size: 18px;
+}
+
+.col-sm-7 {
+    width: 60%;
+    float: left;
+    position: relative;
+min-height: 1px;
+padding-left: 15px;
+padding-right: 15px;
+    box-sizing: border-box;
+    }
+
+.pageTitle {
+    color: #009933;
+    text-align: center;
+    }
+
+h1 {
+        font-size: 22px;
+    line-height: 1.25em;
+    font-family: Trebuchet MS,sans-serif;
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 10px;
+    padding-bottom: 15px;
+} 
+
+.article-section {
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+h2 {
+text-align: center;
+  font-size: 20px;  
+} 
+
+p {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 1.55em;
+        margin-left: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+/* END PAGE-MEIN*/
+
+/*FOOTER*/
+
+footer {
+    margin: 0;
+    min-width: 320px;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    background: #322016;
+    
+}
+
+@media (min-width: 768px)
+.footer-bottom .container {
+    width: 750px;
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (min-width: 768px)
+.footer .col-sm-12 {
+    width: 100%;
+        float: left;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.footer-bottom .footer-bottom-left {
+    padding: 40px;
+}
+
+.footer-bottom .footer-bottom-left .copyright {
+    color: #8F6F54;
+    font-size: 20px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    padding: 15px;
+    color: burlywood;
+    font-size: 20px;
+    display: block;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.footer-bottom a {
+color: burlywood;
+margin: 15px;
+text-decoration: none;
+}
+
+.footer-bottom a:hover {
+color: antiquewhite;
+}
+
+.footer-bottom-left span {
+    float: left;
+    color: #8F6F54;
+    margin-bottom: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 0px;
+}
+
+.share-links {
+    margin: 15px;
+        text-align: right;}
+
+.share-links a {
+    margin: 15px;
+        text-align: right;
+        transition: opacity 0.2s ease-in-out 0s;
+        transition-property: opacity;
+        transition-duration: 0.2s;
+        transition-timing-function: ease-in-out;
+        transition-delay: 0s;
+    background-color: transparent;
+text-decoration: none;
+    text-decoration-color: -moz-use-text-color;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-align: center;
+}
+
+/*FOOTER*/
