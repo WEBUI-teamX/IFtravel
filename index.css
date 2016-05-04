@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
  html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
@@ -96,22 +96,31 @@ ul {
         .clear:after{
         clear: both;
         }  
-        footer{
+        
+  /*footer{
   width: 100%;
   height: 150px;
-}
+}*/
 header{
   width: 100%;
   height: 100px;
   background-image: linear-gradient(rgba(191,239,255,1), rgba(91,124,178,1));
  
 }
-header h1{
-	 transform: skew(-10deg, -5deg);
-
-	perspective:200px;
+header h4{
+  font-size: 22px;
+  color: white;
 }
-img{
+header h2{
+  font-size: 26px;
+  color: white;
+}
+header h2, 
+header h4{
+  padding-top: 20px;
+  display: inline-block;
+}
+ header img{
           width: 100%;
           height: 100px;
           
@@ -150,7 +159,8 @@ img{
  } 
  nav ul li:hover{      
 -webkit-transform:scaleX(1.1); 
--webkit-transition:all 0.3s ease;}
+-webkit-transition:all 0.3s ease;
+}
 
 nav a{
   text-decoration: none;
@@ -463,5 +473,108 @@ height: 100%;
     margin-right: 5px;
     margin-left: 10px;
   }
+
+  /*FOOTER*/
+
+footer {
+    margin: 0;
+    min-width: 320px;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    background: #322016;
+    
+}
+
+@media (min-width: 768px)
+.footer-bottom .container1 {
+    width: 750px;
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (min-width: 768px)
+.footer .col-sm-12 {
+    width: 100%;
+        float: left;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.footer-bottom .footer-bottom-left {
+    padding: 40px;
+}
+
+.footer-bottom .footer-bottom-left .copyright {
+    color: #8F6F54;
+    font-size: 20px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    padding: 15px;
+    color: burlywood;
+    font-size: 20px;
+    display: block;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.footer-bottom a {
+color: burlywood;
+margin: 15px;
+text-decoration: none;
+}
+
+.footer-bottom a:hover {
+color: antiquewhite;
+}
+
+.footer-bottom-left span {
+    float: left;
+    color: #8F6F54;
+    margin-bottom: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 0px;
+}
+
+.share-links {
+    margin: 15px;
+    text-align: right;
+
+      }
+
+.share-links a {
+    margin: 15px;
+        text-align: right;
+        transition: opacity 0.2s ease-in-out 0s;
+        transition-property: opacity;
+        transition-duration: 0.2s;
+        transition-timing-function: ease-in-out;
+        transition-delay: 0s;
+    background-color: transparent;
+text-decoration: none;
+    text-decoration-color: -moz-use-text-color;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-align: center;
+}
+.share-links img{
+  border-radius: 4px;
+}
+.row1 {
+    margin-left: 15px;
+    margin-right: 15px;
+    box-sizing: border-box;
+}
+/*FOOTER*/
+
 
 
