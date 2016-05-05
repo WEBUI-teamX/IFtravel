@@ -103,29 +103,33 @@ ul {
 }*/
 header{
   width: 100%;
-  height: 100px;
-  background-image: linear-gradient(rgba(191,239,255,1), rgba(91,124,178,1));
- 
-}
-header h4{
-  font-size: 22px;
-  color: white;
-}
-header h2{
-  font-size: 26px;
-  color: white;
-}
-header h2, 
-header h4{
-  padding-top: 20px;
-  display: inline-block;
-}
- header img{
-          width: 100%;
-          height: 100px;
-          
+  height: 300px; 
+  background-image: url(iv-frn.jpg);
+  } 
+
+
+  header .row .cols img{
+        margin-left: 50px;
+        margin-top: 20px;
+        display: block;
+        
+       text-align: left; 
+       clear: both;
 
         }
+  header .row .cols h2,
+  header .row .cols h4
+  {
+  display: block;
+  text-align: left;
+  margin-left: 50px;
+  color: white;
+  font-size: 22px;
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+  }
+  header .row .cols h2{
+  font-size: 30px;
+    }
 
         /* Навігаційна панель*/
         nav{
@@ -138,7 +142,7 @@ header h4{
         nav ul{
 			   height:100%;
           margin-top: 0;
-         text-align: center;
+         text-align: right;
          padding-right: 20px; 
         
         }
@@ -149,28 +153,25 @@ header h4{
   margin-left: 15px;
   padding: 2px 5px;
   border-radius: 5px;
-    -moz-box-shadow: 5px 5px 5px #4169E1, inset -5px -5px 10px #6495ED;
-  -webkit-box-shadow: 5px 5px 5px #4169E1, inset -5px -5px 10px #6495ED;
-  box-shadow: 5px 5px 5px #4169E1, inset -5px -5px 10px #6495ED;
   opacity: 1;
   font-weight: normal;
   font-size: 17px;
    
  } 
- nav ul li:hover{      
--webkit-transform:scaleX(1.1); 
--webkit-transition:all 0.3s ease;
-}
+
 
 nav a{
   text-decoration: none;
   color: white;
-   
-} 
+   } 
+nav a:hover{
+  text-decoration: underline;
+  color: white;
+   } 
 /* Панель пошуку*/
 .settings{
  text-align: right;
- padding-right: 20px;
+ padding-right: 0px;
  margin-top: 5px;
  margin-bottom: 5px;
 }
@@ -194,6 +195,7 @@ ul.dropdown{
 float: right;
 margin-left: 20px;
 margin-top: 3px;
+margin-right: 20px;
 }
 
 ul.dropdown li { position: relative; 
@@ -259,11 +261,7 @@ height: 20px;
       display: inline-block;
      width: 40px;
   }
-  section{
-    width: 100%;
-    height: 300px;
-    background-image: url(iv-frn.jpg);
-  }
+
 
 /*main section*/
 .main{
@@ -365,7 +363,7 @@ height: 100%;
   overflow: hidden;
   background-image: url(images/vartoPobachit.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   position: absolute;
   top: 0;
   left: 0;
@@ -390,25 +388,26 @@ height: 100%;
 /*panel of event*/
   .main h2{
 
-    text-align: left;
-    margin-left: 20px;
+    text-align: center;
+    margin-left: 0px;
     font-family: Calibri, Trebuchet MS, sans-serif;
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 24px;
   }
-  .main span{
+  /*
+  .main  h2 span{
     display: inline-block;
     border-radius: 20px;
     padding:5px;
-    float: left;
     width: 40px;
     height: 40px;
     background-image: url(images/info.png);
     margin-bottom: 5px;
     margin-right: 5px;
     margin-left: 10px;
+    text-align: center;
   }
-
+*/
  .main .cols{
 background-color: #bbeee7;
 
@@ -417,23 +416,61 @@ background-color: #bbeee7;
   margin-top: 20px;
   height: 100%
 }
-.event .wrapper{
-  overflow: hidden;
-  padding: 10px;
-  padding-bottom: 0;
-  padding-bottom: 25px;
-  margin: 10px;
-  background-color: #87CEFF;
+.news-container, .news {
+  display: flex;
+  flex-wrap: wrap;
 }
-.event .wrapper img{
-  display: block;
-  width: 100%;
-  }
-.event .wrapper .event_about{
-  display: block;
-  height: 300px;
+
+.news-container {
+  flex-direction: column;
+  height: 350 px;
+  background-color: #bbeee7
+  padding: 1em;
   
-}  
+}
+
+.news-header {
+  margin: auto;
+  font-size: 150%;
+  color: #541906;
+  padding-bottom: 0.5em;
+}
+
+.news {
+  justify-content: space-around;
+}
+
+.news-item {
+  background-color: white;
+      margin: 0 .5em .8em;
+      border: 2px solid #541906;
+}
+
+.news-item:hover {
+  font-weight: bold;
+      opacity: 0.8;
+      border: 2px solid blue;
+}
+
+.news-link a {
+  color: #541906;
+  text-decoration: none;
+}
+
+.news-link {
+  text-align: center;
+}
+
+.allnews {
+  margin: auto;
+  padding-top: 0.7em;
+}
+
+.allnews a {
+  color: #541906;
+  text-decoration: none;
+  font-weight: bold;
+} 
 
 
 
@@ -641,4 +678,4 @@ text-decoration: none;
 /*FOOTER*/
 
 
-
+  
