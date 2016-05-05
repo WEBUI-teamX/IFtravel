@@ -678,4 +678,30 @@ text-decoration: none;
 /*FOOTER*/
 
 
-  
+  /*Adapt part*/
+  @media all and (max-width: 850px) and (min-width: 650px){
+  .main{
+    height: 600px;
+  }
+  .main .cols.col-3{
+    width: 33%;
+    margin: 0 auto;
+    display: inline-block;
+  }
+   .main .cols.col-3 article.green{
+    margin-top: 20px;
+
+
+   }
+}
+@media all and (max-width: 680px){
+    .main .cols.col-3{
+    width: 50%;
+    margin: 0 auto;
+    display: inline-block;
+  }
+     .main .cols.col-3 article.green,
+    .main .cols.col-3 article.red
+     {
+    margin-top: 20px;
+}
