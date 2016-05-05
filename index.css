@@ -188,7 +188,7 @@ input[type="button"]{
 }
 
 
- /* Випадаюче меню вибору мови сайту */
+ /* menu of saits language */
 ul.dropdown{
   display: block;
 float: right;
@@ -323,7 +323,7 @@ width: 100%;
 }
 
 
-/*Effects with content*/
+/*Effects with content of main part*/
  .reveal-wrapper h1{
   margin: 0;
   padding: 100px;
@@ -388,13 +388,72 @@ height: 100%;
 
 
 /*panel of event*/
+  .main h2{
+
+    text-align: left;
+    margin-left: 20px;
+    font-family: Calibri, Trebuchet MS, sans-serif;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  .main span{
+    display: inline-block;
+    border-radius: 20px;
+    padding:5px;
+    float: left;
+    width: 40px;
+    height: 40px;
+    background-image: url(images/info.png);
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 10px;
+  }
+
+ .main .cols{
+background-color: #bbeee7;
+
+ } 
 .event{
   margin-top: 20px;
+  height: 100%
 }
+.event .wrapper{
+  overflow: hidden;
+  padding: 10px;
+  padding-bottom: 0;
+  padding-bottom: 25px;
+  margin: 10px;
+  background-color: #87CEFF;
+}
+.event .wrapper img{
+  display: block;
+  width: 100%;
+  }
+.event .wrapper .event_about{
+  display: block;
+  height: 300px;
+  
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .accordeon{
     width: 99%;
     margin-left:10px;
     text-align: left;
+    display: none;
 
   }
   .accordeon_trigger{
@@ -454,25 +513,7 @@ height: 100%;
     margin-left: 160px;
   }
 
-  .main h2{
 
-    text-align: left;
-    margin-left: 20px;
-    font-family: Calibri, Trebuchet MS, sans-serif;
-    margin-top: 10px;
-  }
-  .main span{
-    display: inline-block;
-    border-radius: 20px;
-    padding:5px;
-    float: left;
-    width: 40px;
-    height: 40px;
-    background-image: url(images/info.png);
-    margin-bottom: 5px;
-    margin-right: 5px;
-    margin-left: 10px;
-  }
 
   /*FOOTER*/
 
@@ -482,7 +523,7 @@ footer {
     max-width: 100%;
     height: auto;
     position: relative;
-    background: #322016;
+    background: #8470FF;
     
 }
 
@@ -506,46 +547,55 @@ footer {
 }
 
 .footer-bottom .footer-bottom-left {
-    padding: 40px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
 }
 
 .footer-bottom .footer-bottom-left .copyright {
-    color: #8F6F54;
-    font-size: 20px;
+    color: #2f4f4f;
+    font-size: 16px;
     display: block;
     float: left;
     margin-right: 10px;
 }
 
 .footer-bottom {
-    padding: 15px;
-    color: burlywood;
+    padding: 5px;
+    padding-bottom: 15px;
+    color: #2f4f4f;
     font-size: 20px;
     display: block;
     margin-right: 10px;
     text-align: center;
 }
 
+
 .footer-bottom a {
-color: burlywood;
+color: #2f4f4f;
 margin: 15px;
 text-decoration: none;
+}
+.footer-nav-item{
+  font-size: 18px;
 }
 
 .footer-bottom a:hover {
 color: antiquewhite;
+text-decoration: underline;
 }
 
 .footer-bottom-left span {
     float: left;
-    color: #8F6F54;
+    color: #2f4f4f;
     margin-bottom: 0px;
     margin-left: 15px;
     margin-right: 15px;
     margin-top: 0px;
     text-align: left;
     vertical-align: middle;
-    font-size: 20px;
+    font-size: 16px;
 }
 .footer-bottom-left span img{
   width: 20px;
@@ -581,6 +631,7 @@ text-decoration: none;
 }
 .share-links img{
   border-radius: 4px;
+  vertical-align: top;
 }
 .row1 {
     margin-left: 15px;
