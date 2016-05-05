@@ -168,6 +168,49 @@ nav a:hover{
   text-decoration: underline;
   color: white;
    } 
+
+/*header hidden*/
+.header_hidden{
+  display: none;
+  width: 100%;
+  height: 100px;
+  background-image: linear-gradient(rgba(191,239,255,1), rgba(91,124,178,1));
+ 
+}
+
+
+.header_hidden   nav{
+          margin-left: 0px;
+          margin-right: 0px;
+          width: 100%;
+      
+          
+        }
+  .header_hidden  nav ul{
+         height:100%;
+          margin-top: 0;
+         text-align: right;
+         padding-right: 20px; 
+        
+        }
+
+.header_hidden nav ul li{
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 15px;
+  padding: 2px 5px;
+ font-weight: bold;
+  font-size: 17px;
+   
+ } 
+
+
+.header_hidden nav a{
+  text-decoration: none;
+  color: black;
+   
+} 
+/*header hidden*/
 /* Панель пошуку*/
 .settings{
  text-align: right;
@@ -322,18 +365,19 @@ width: 100%;
 
 
 /*Effects with content of main part*/
- .reveal-wrapper h1{
-  margin: 0;
-  padding: 100px;
-  color: white;
-}
+
 .reveal-wrapper{
  
 position: relative;
-height:270px;
-  
+height:270px;}
+
+.reveal-wrapper h1{
+  margin: 0;
+  padding: 100px;
+  color: white;
+}  
  
-}
+
 .reveal-wrapper:hover .reveal-top{
 height: 0%;
 }
@@ -357,7 +401,6 @@ height: 100%;
   font-family: Calibri, "Trebuchet MS", sans-serif;
   padding: 5px;
    
-  
 }
 .reveal-top{
   overflow: hidden;
@@ -383,7 +426,13 @@ height: 100%;
 .reveal-content h1{
   color: black;
 }
-
+.reveal-content:hover .more_about{
+ position: absolute;
+ right: 0;
+ bottom: 0;
+  color:blue;
+  font-size: 16px;
+}
 
 /*panel of event*/
   .main h2{
@@ -486,70 +535,6 @@ background-color: #bbeee7;
 
 
 
-.accordeon{
-    width: 99%;
-    margin-left:10px;
-    text-align: left;
-    display: none;
-
-  }
-  .accordeon_trigger{
-    text-decoration: none;
-    font-family: Calibri, "Trebuchet MS", sans-serif;
-    font-size: 18px;
-    color: #333;
-    background-color: #ffa500;
-    display: block;
-    padding: 6px;
-    border:1px solid #ddd;
-    border-radius: 5px;
-  }
-  .accordeon_trigger.orange{
-  background-color:#FF3030 ;
-}
- .accordeon_trigger.green{
-  background-color:#00ee00 ;
-}
-
-  .accordeon_inner{
-    margin-left: 20px;
-
-  }
-  .accordeon_item{
-    margin-bottom: 10px;
-  }
-  .accordeon_inner-link{
-    font-family: Calibri, "Trebuchet MS", sans-serif;
-    font-size: 18px;
-    text-decoration: none;
-    color: #34495e;
-    border-bottom: 1px dotted #34495e;
-  }
-  .accordeon_inner-item{
-    list-style: none;
-    margin-bottom: 2px;
-  }
-  .accordeon_inner{
- display: none;
-  }
-  .accordeon_inner-item p{
-    display: block;
-    margin-left: 160px;
-
-  }
-  .accordeon_inner-item  img{
-    display: block;
-    width: 130px;
-    height: 80%;
-    float: left;
-    margin-right:10px;
-    clear: both; 
-  }
-  .accordeon_inner ul  li{
-    list-style: none;
-    margin-left: 160px;
-  }
-
 
 
   /*FOOTER*/
@@ -560,7 +545,7 @@ footer {
     max-width: 100%;
     height: auto;
     position: relative;
-    background: #8470FF;
+    background: #322016;
     
 }
 
@@ -704,4 +689,40 @@ text-decoration: none;
     .main .cols.col-3 article.red
      {
     margin-top: 20px;
+  }
+  .container header .cols.col-3{
+	  width:100%;
+  }
+  
+
+    .container header .cols.col-9{
+	  display: none;
+  }
+  .header_hidden{
+    display: block;
+  }
+}   
+   
+@media all and (max-width: 455px){
+    .main .cols.col-3{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+	
+  }
+
+     .main .cols.col-3 article.green,
+    .main .cols.col-3 article.red,
+	.main .cols.col-3 article.orange
+     {
+    margin-top: 20px;
+	
+}
+.header_hidden nav ul li{
+  display: block;
+
+ font-weight: bold;
+  font-size: 15px;
+   
+ } 
 }
