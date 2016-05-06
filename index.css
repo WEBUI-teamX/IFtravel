@@ -118,7 +118,7 @@ header{
 
         }
   header .row .cols h2,
-  header .row .cols h4
+  header .row .cols h3
   {
   display: block;
   text-align: left;
@@ -208,6 +208,8 @@ nav a:hover{
 .header_hidden nav a{
   text-decoration: none;
   color: black;
+  position: relative;
+  text-transform: uppercase;
    
 } 
 /*header hidden*/
@@ -309,7 +311,7 @@ height: 20px;
 /*main section*/
 .main{
     height: 300px;
-    background-color: #bbeee7;
+    background-color: #F9F2EC;
     text-align: center;
 
 }
@@ -458,7 +460,7 @@ height: 100%;
   }
 */
  .main .cols{
-background-color: #bbeee7;
+background-color: #F9F2EC;
 
  } 
 .event{
@@ -491,8 +493,10 @@ background-color: #bbeee7;
 
 .news-item {
   background-color: white;
-      margin: 0 .5em .8em;
-      border: 2px solid #541906;
+  margin: 0 .5em .8em;
+  box-shadow: 5px 5px 5px #bbeee7;
+      /*border: 2px solid #541906;*/
+
 }
 
 .news-item:hover {
@@ -544,71 +548,20 @@ footer {
     min-width: 320px;
     max-width: 100%;
     height: auto;
-    position: relative;
     background: #322016;
     
 }
-
-@media (min-width: 768px)
-.footer-bottom .container1 {
-    width: 750px;
-    margin-right: 0;
-    margin-left: 0;
-    padding-left: 15px;
-    padding-right: 15px;
+.footer_flex{
+  display: flex;
+  flex-direction:row;
+  justify-content:space-around;
+  flex-wrap:wrap;
+}
+.footer_flex div{
+  margin:10px;
 }
 
-@media (min-width: 768px)
-.footer .col-sm-12 {
-    width: 100%;
-        float: left;
-    position: relative;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.footer-bottom .footer-bottom-left {
-    padding-left: 40px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 40px;
-}
-
-.footer-bottom .footer-bottom-left .copyright {
-    color: #2f4f4f;
-    font-size: 16px;
-    display: block;
-    float: left;
-    margin-right: 10px;
-}
-
-.footer-bottom {
-    padding: 5px;
-    padding-bottom: 15px;
-    color: #2f4f4f;
-    font-size: 20px;
-    display: block;
-    margin-right: 10px;
-    text-align: center;
-}
-
-
-.footer-bottom a {
-color: #2f4f4f;
-margin: 15px;
-text-decoration: none;
-}
-.footer-nav-item{
-  font-size: 18px;
-}
-
-.footer-bottom a:hover {
-color: antiquewhite;
-text-decoration: underline;
-}
-
-.footer-bottom-left span {
+.footer_flex span {
     float: left;
     color: #2f4f4f;
     margin-bottom: 0px;
@@ -619,52 +572,46 @@ text-decoration: underline;
     vertical-align: middle;
     font-size: 16px;
 }
-.footer-bottom-left span img{
+.footer_flex .adress span{
+  font-size: 14px;
+}
+.footer_flex div img
+{
   width: 20px;
   height: 20px;
   border-radius: 10px;
   vertical-align: middle;
 }
-.footer-bottom-left span img.mail{
+.footer_flex img.mail{
   width: 30px;
   height: 20px;
   border-radius: 0px;
 }
-.share-links {
-    margin: 15px;
-    text-align: right;
+.footer_flex div  a img{
+  margin-left: 20px;
+  border-radius: 2px;
+}
+.footer_flex div  a img:hover{
+  margin-left: 20px;
+  border:1px solid white;
+  cursor: pointer;
+}
+.copyright{
+  color: #2f4f4f;
+  font-size: 12px;  
+}
 
-      }
 
-.share-links a {
-    margin: 15px;
-        text-align: right;
-        transition: opacity 0.2s ease-in-out 0s;
-        transition-property: opacity;
-        transition-duration: 0.2s;
-        transition-timing-function: ease-in-out;
-        transition-delay: 0s;
-    background-color: transparent;
-text-decoration: none;
-    text-decoration-color: -moz-use-text-color;
-    text-decoration-line: none;
-    text-decoration-style: solid;
-    text-align: center;
-}
-.share-links img{
-  border-radius: 4px;
-  vertical-align: top;
-}
-.row1 {
-    margin-left: 15px;
-    margin-right: 15px;
-    box-sizing: border-box;
-}
+
+
+
+
+
 /*FOOTER*/
 
 
   /*Adapt part*/
-  @media all and (max-width: 850px) and (min-width: 650px){
+  @media all and (max-width: 890px) and (min-width: 650px){
   .main{
     height: 600px;
   }
@@ -720,9 +667,10 @@ text-decoration: none;
 }
 .header_hidden nav ul li{
   display: block;
-
- font-weight: bold;
-  font-size: 15px;
-   
+  font-weight: bold;
+  font-size: 15px;   
  } 
+input[type="text"]{
+  width: 100px;
+}
 }
