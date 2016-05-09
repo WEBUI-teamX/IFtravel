@@ -617,7 +617,7 @@ background-color: #F9F2EC;
   margin: auto;
   font-size: 150%;
   color: #541906;
-  padding-bottom: 0.5em;
+  padding-bottom: 0.8em;
 }
 
 .news {
@@ -659,21 +659,11 @@ background-color: #F9F2EC;
   font-weight: bold;
 } 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.allnews a:hover {
+  color: #541906;
+  text-decoration: underline;
+  font-weight: bold;
+} 
 
   /*FOOTER*/
 
