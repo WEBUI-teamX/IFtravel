@@ -1,0 +1,194 @@
+/*Стилі Юри */
+
+header{
+  background-image: url(image/background.jpg);
+  } 
+
+.sidebar {
+     margin: 0;
+     padding: 12px;
+      line-height: 50px;
+     color: #fff;
+     font-family: Calibri, Trebuchet MS, sans-serif;
+     font-size: 26px;
+     font-weight: normal;
+     text-transform: uppercase;
+     background-color: #e00619;
+     text-align: center;
+     }
+
+.TitleText {
+     color: #e00619;
+     text-align: center;
+     }
+ 
+ .TitleText h1 {
+     font-size: 28px;
+     line-height: 1.25em;
+     font-family: Trebuchet MS,sans-serif;
+     text-transform: uppercase;
+     margin: 0px;
+     padding: 20px;
+      } 
+ .my_page a {
+     font-family: Calibri, Trebuchet MS, sans-serif;
+     font-size: 20px;
+     font-weight: bold;
+     color: #e00619;
+     text-decoration: none;
+ }
+
+ .my_page a:hover {
+     color: pink;}
+ 
+ .my_page .row {
+     margin-left: 15px;
+     margin-right: 15px;
+     padding-bottom: 30px;
+     padding-top: 30px;
+     box-sizing: border-box;
+ }
+.images{
+    margin: 15px;
+    float: left;
+}
+
+
+
+.ReadText {
+     font-weight: 700;
+     box-sizing: border-box;
+      }
+
+.ReadText a {
+    display: flex;
+    padding: 20px;
+    color: #e00619;
+    font-family: Calibri, Trebuchet MS, sans-serif;
+     font-size: 25px;
+}
+article{
+    padding-top: 25px;
+}
+p {
+    font-style: normal;
+    font-weight: 200;
+    
+    font-size: 19px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 1.55em;
+    margin-left: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+user agent stylesheet
+p {
+    line-height: 0,em;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.text {
+    margin: 0;
+    font-size: 140%;
+    font-weight: bold;
+}
+.text{ 
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+.text {
+    margin-left: 27%; /* Отступ слева */
+    color: aliceblue;
+    font-weight: lighter;
+    font-size: 60px;
+}
+@media (max-width: 1200px) {
+.text{
+    display: none;
+    }
+}
+.GreenText {
+     padding-top: 15px;
+     font-weight: 700;
+     box-sizing: border-box;
+}
+
+.GreenText a{
+    color: blue;
+    font-family: Calibri, Trebuchet MS, sans-serif;
+     font-size: 22px;
+}
+.forma{
+    margin: auto;
+    width: 275px;
+    height: 550px;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid lightgrey;
+}
+label{
+    font-size: 19px;
+
+}
+.form{
+    margin: 15px;
+   display: flex;
+    flex-direction: column;    
+}
+.button{
+    margin: 15px;
+    font-size: 15px;
+}
+input{
+    height: 35px;
+}
+select{
+    height: 35px;
+}
+option{
+    height: 35px;
+}
+p{
+    font-size:22px;
+    font-family: Calibri, "Trebuchet MS", sans-serif;
+    
+}
+
+
+@media (max-width: 900px){
+    header{
+    min-width: 450px;
+    }
+ .article-section {
+     width: 150%;
+     align-self: center;
+     margin-bottom: 40px;
+     box-sizing: border-box;
+     background-color: white;
+     height: inherit; 
+ }
+.col-sm-5{
+    margin: auto;
+    align-self: center;
+    width: 400px;
+    float: inherit;
+    display: flex;
+    flex-direction: column;
+    }
+    footer{
+    min-width: 450px;
+    }
+    }
+    
