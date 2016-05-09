@@ -212,6 +212,8 @@ text-decoration: underline;
   margin-left: 10px;
     text-align: center;
   display: block;
+   margin-top: 2px;
+  
 }
 
 
@@ -269,7 +271,7 @@ text-align: center;
 }
 
 
-@media (min-width: 1180px) {
+@media (min-width: 1305px) {
 
 .header-container, .menu-container, .logo-container {
     display: flex;
