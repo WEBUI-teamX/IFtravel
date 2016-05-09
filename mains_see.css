@@ -1,0 +1,362 @@
+/*PAGE SEE*/
+body {
+    font-family: Tahoma,sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0;
+}
+
+/*HEADER*/
+
+header {
+background-image: url(image/wpid-vech-rn-y-vano_i_1.jpg);
+background-size: cover;
+max-width: 100%;
+height: 450px;
+box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+margin: 0px;
+padding: 0px;
+}
+
+div {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/*nav*/
+
+nav {
+    position: relative;
+    top: 0;
+    right: 0px;
+    float: right;
+    display: inline-block;
+    text-align: right;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    height: 40px;
+    }
+
+.menu_ul > li {
+    display: inline-block;
+    height: auto;
+    font-family: Tahoma,sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+ul li a {
+    line-height: 10px;
+    padding: 10px;
+    color: white;
+text-decoration: none;
+}
+
+ul li a:hover {
+    color: lightgreen;
+}
+
+/*END NAV*/
+
+/*button search*/
+.settings {
+float: right;
+    }
+
+input[type="submit"] {
+    align-items: flex-start;
+    text-align: center;
+    cursor: pointer;
+    color: buttontext;
+    box-sizing: border-box;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-width: 0.7em;
+    border-style: none;
+    border-color: buttonface;
+    color: white;
+}
+
+/*button search*/
+
+
+/*logotyp*/
+
+.logo {
+     margin: 0px;
+    padding-bottom: 10px;
+    padding-left: 110px;
+    padding-right: 10px;
+    padding-top: 20px;
+    height: 250px;
+    }
+
+.logo_title {
+height: 90px;
+}
+
+.logo_title h4 a {
+    text-align: left;
+    margin: 0px;
+    padding: 5px 0px 5px 0px;
+    color: aliceblue;
+    font-size: 35px;
+    font-family: MuseoSans,Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    }
+
+.logo_title h1 a {
+    text-align: left; 
+    margin: 0px;
+    padding: 5px 0px 5px 0px;
+    padding-left: 0px;
+    color: aliceblue;
+    font-size: 52px;
+    font-family: MuseoSans,Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    }
+
+.logo_title h4 a:hover {
+    color: lightgreen;
+}
+    
+.logo_title h1 a:hover {
+    color: lightgreen;
+}
+
+/*END logotype*/
+
+
+/*END logotype*/
+
+/*PAGE MAIN */
+.flex_conteiner {
+     margin: 0px;
+     padding: 1px;
+     line-height: 1.5;
+     font-family: MuseoSans,Helvetica,Arial,sans-serif;
+     font-size: 16px;
+     color: #1A1919;
+     background-color: #F9F2EC;
+     max-width: 100%;
+
+ }
+ 
+.flex_conteiner a {
+     font-size: 20px;
+     font-weight: bold;
+     color: #009933;
+     text-decoration: none;
+ }
+
+.flex_conteiner a:hover {
+     color: #99FF99;
+}
+
+.see {
+     width: 400px;
+     padding-left: 15px;
+     padding-right: 15px;
+     box-sizing: border-box;
+ }
+
+ .about {
+ background-color: white;
+ padding: 20px;
+     }
+ 
+ .pageName {
+     margin: 0;
+     padding: 18px;
+     color: #fff;
+     font-size: 27px;
+     text-transform: uppercase;
+     background-color: #009933;
+     text-align: center;
+     }
+
+.text-label a {
+    font-size: 22px;
+color: #009933;}
+ 
+.text-label a:hover {
+    color: lightgreen;
+}
+
+.main_see {
+     width: 800px;
+     padding-left: 15px;
+     padding-right: 15px;
+     box-sizing: border-box;
+     }
+ 
+ .pageTitle {
+     color: #009933;
+     text-align: center;
+     }
+ 
+ .pageTitle h1 {
+     font-size: 28px;
+     line-height: 1.25em;
+     font-family: Trebuchet MS,sans-serif;
+     text-transform: uppercase;
+     margin: 0px;
+     padding: 20px;
+      } 
+ 
+ .article-section {
+     margin-bottom: 20px;
+     background-color: white;
+     height: inherit;
+ }
+ 
+ .article-section h2 {
+     text-align: center;
+     margin: 5px;
+    } 
+
+.article-section h2 a {
+    font-size: 30px; 
+    } 
+ 
+ p {
+     margin-top: 0px;
+     margin-right: 0px;
+     margin-bottom: 1.55em;
+     margin-left: 0px;
+     padding-left: 15px;
+     padding-right: 15px;
+     
+ }
+
+
+ /* END PAGE-MEIN*/
+ 
+ /*FOOTER*/
+footer {
+    margin: 0;
+    min-width: 320px;
+    max-width: 100%;
+    height: auto;
+    background: #322016;
+    
+}
+
+.footer_flex{
+  display: flex;
+  flex-direction:row;
+  justify-content:space-around;
+  flex-wrap:wrap;
+}
+
+ 
+.footer_flex div{
+  margin:10px;
+}
+
+.footer_flex span {
+    float: left;
+    color: #F9F2EC;
+    margin-bottom: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 0px;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 16px;
+}
+.footer_flex .adress span{
+  font-size: 14px;
+}
+.footer_flex div img
+{
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  vertical-align: middle;
+}
+.footer_flex img.mail{
+  width: 30px;
+  height: 20px;
+  border-radius: 0px;
+}
+.footer_flex div  a img{
+  margin-left: 20px;
+  border-radius: 2px;
+}
+.footer_flex div  a img:hover{
+  margin-left: 20px;
+  border:1px solid white;
+  cursor: pointer;
+}
+.copyright{
+  color: #2f4f4f;
+  font-size: 12px;  
+}
+
+ /*FOOTER*/
+
+
+.flex_conteiner{
+  display: flex;
+  height: auto;
+  max-width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+        }	
+
+.see {
+width: 400px;}
+
+.main_see {
+width: 800px;}
+/*END PAGE SEE*/
+
+
+/*galery*/
+.article-section {
+    margin-bottom: 20px;
+    background-color: white;
+    height: inherit;
+}
+
+.gallery-list {
+    font-size: 0px;
+    box-sizing: border-box;
+}
+
+.gallery-list a {
+    width: 20%;
+    display: inline-block;
+}
+
+.gallery-list a img {
+    display: block;
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 0px none;
+    box-sizing: border-box;
+}
+
+.gallery-list a img:hover {
+    opacity: 0.4;
+    }
+
+
+/*END MEDIA FOTO*/
+
+
