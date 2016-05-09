@@ -172,9 +172,9 @@ text-align: center;
  
  .pageName {
      margin: 0;
-     padding: 18px;
+     padding: 15px;
      color: #fff;
-     font-size: 27px;
+     font-size: 22px;
      text-transform: uppercase;
      background-color: #009933;
      text-align: center;
@@ -201,38 +201,66 @@ color: #009933;}
      }
  
  .pageTitle h1 {
-     font-size: 28px;
+     font-size: 25px;
      line-height: 1.25em;
      font-family: Trebuchet MS,sans-serif;
      text-transform: uppercase;
      margin: 0px;
-     padding: 20px;
-      } 
+     padding: 15px;
+     background-color: #F9F2EC;} 
  
  .article-section {
      margin-bottom: 20px;
      background-color: white;
      height: inherit;
  }
+
+.section {
+    margin: 0 auto;
+    padding: 0px;
+    position: relative;
+    height: inherit;
+    box-sizing: border-box;
+}
+
+.article {
+     margin: 0 auto;
+    padding: 2px;
+    position: relative;
+    height: 420px;
+    display: block;
+}
  
- .article-section h2 {
+ .article h2 {
      text-align: center;
-     margin: 5px;
+     margin: 1px;
     } 
 
-.article-section h2 a {
-    font-size: 30px; 
+.article h2 a {
+    font-size: 22px; 
     } 
- 
- p {
+
+.article img {
+     width: 400px;
+     height: 300px;
+     float: left;
+     margin: 7px;
+}
+
+.article img:hover {
+    opacity: 0.4;
+}
+
+ .article p {
      margin-top: 0px;
      margin-right: 0px;
      margin-bottom: 1.55em;
      margin-left: 0px;
      padding-left: 15px;
      padding-right: 15px;
-     
- }
+     }
+
+
 
 
  /* END PAGE-MEIN*/
