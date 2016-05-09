@@ -3,6 +3,110 @@
 header{
   background-image: url(image/background.jpg);
   } 
+  
+  .menu-container a {
+  text-align: center;
+  display: block;
+  padding: 10px 15px;
+  color: white;
+    text-decoration: none;
+     font-family: Tahoma,sans-serif;
+     font-size: 20px;
+
+}
+
+.menu-container a:hover {
+text-decoration: underline;
+ color: lightgreen;
+  } 
+
+  .logo-container {
+    display: none;
+  }
+
+
+  .search {
+  margin-left: 10px;
+    text-align: center;
+  display: block;
+
+  
+}
+
+
+@media (min-width: 600px) {
+
+.header-container, .menu-container, .logo-container {
+    display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.header-container {
+  justify-content: space-between;
+  flex-direction: column-reverse;
+
+}
+
+.menu-container  {
+  list-style: none;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.logo-container {
+  flex-direction: column;
+  align-items: center;
+    margin-right: auto;
+margin-bottom: auto;
+margin-left: 20px;
+margin-top: 20px;
+background-color: rgba(0, 120, 201, 0.65);
+}
+
+
+.slogan {
+  color:white;
+  font-size: 1.6em;
+font-weight: bold;
+text-align: center;
+}
+
+.menu-container a {
+  text-align: center;
+  display: block;
+  padding: 10px 15px;
+}
+
+
+
+.menu-container input {
+  
+  margin-top: 10px;
+   height: 20px;
+}
+}
+
+
+@media (min-width: 1305px) {
+
+.header-container, .menu-container, .logo-container {
+    display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.header-container {
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.logo-container {
+  background-color: rgba(0, 120, 201, 0.4);
+}
+
+}
 
 .sidebar {
      margin: 0;
