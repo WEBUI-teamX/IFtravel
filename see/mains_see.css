@@ -378,4 +378,13 @@ width: 800px;}
 
 /*END MEDIA FOTO*/
 
+.article  {
+    display: flex;
+  height: auto;
+  max-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 
