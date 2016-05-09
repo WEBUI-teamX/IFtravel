@@ -189,25 +189,11 @@ text-decoration: underline;
   }
 
 
-<<<<<<< HEAD
   .search {
-=======
-.header_hidden nav a{
-  text-decoration: none;
-  color: black;
-  position: relative;
-  text-transform: uppercase;
-   
-} 
-/*header hidden*/
-/* Панель пошуку*/
-.settings{
- text-align: right;
- padding-right: 0px;
- margin-top: 5px;
- margin-bottom: 5px;
+  margin-left: 10px;
+text-align: center;
+  display: block;
 }
-
 
 
 
@@ -614,12 +600,8 @@ height: 100%;
 background-color: #F9F2EC;
 
  } 
- .main .color{
-	 background-color:#f3e5d8;
-	 margin-top:6px;
- }
 .event{
-  margin-top: 25px;
+  margin-top: 20px;
   height: 100%
 }
 .news-container, .news {
@@ -719,7 +701,7 @@ footer {
 
 .footer_flex span {
     float: left;
-    color: #F9F2EC;
+    color: #2f4f4f;
     margin-bottom: 0px;
     margin-left: 15px;
     margin-right: 15px;
@@ -755,7 +737,6 @@ footer {
 .copyright{
   color: #2f4f4f;
   font-size: 12px;  
-
 }
 
 
@@ -771,9 +752,6 @@ footer {
   @media all and (max-width: 890px) and (min-width: 650px){
   .main{
     height: 600px;
-  }
-  .row .main{
-	  height:490px;
   }
   .main .cols.col-3{
     width: 33%;
@@ -825,13 +803,5 @@ footer {
     margin-top: 20px;
 	
 }
-
-.header_hidden nav ul li{
-  display: block;
-  font-weight: bold;
-  font-size: 15px;   
- } 
-input[type="text"]{
-  width: 100px;
 
 }
