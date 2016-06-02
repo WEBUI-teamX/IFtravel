@@ -159,14 +159,6 @@ header{
  } 
 
 
-nav a{
-  text-decoration: none;
-  color: white;
-   } 
-nav a:hover{
-  text-decoration: underline;
-  color: white;
-   } 
 
 .menu-container a {
   text-align: center;
@@ -174,15 +166,15 @@ nav a:hover{
   padding: 10px 15px;
   color: white;
     text-decoration: none;
-        font-family: Tahoma,sans-serif;
-    font-size: 20px;
-    cursor: pointer;
+     font-family: Tahoma,sans-serif;
+     font-size: 20px;
 
 }
 
 .menu-container a:hover {
 text-decoration: underline;
-  }
+ color: lightgreen;
+  } 
 
   .logo-container {
     display: none;
@@ -191,10 +183,11 @@ text-decoration: underline;
 
   .search {
   margin-left: 10px;
-text-align: center;
+    text-align: center;
   display: block;
+   margin-top: 2px;
+  
 }
-
 
 
 @media (min-width: 600px) {
@@ -215,12 +208,14 @@ text-align: center;
   list-style: none;
   margin-right: 20px;
   margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 .logo-container {
   flex-direction: column;
   align-items: center;
-margin-right: auto;
+    margin-right: auto;
+margin-bottom: auto;
 margin-left: 20px;
 margin-top: 20px;
 background-color: rgba(0, 120, 201, 0.65);
@@ -231,6 +226,7 @@ background-color: rgba(0, 120, 201, 0.65);
   color:white;
   font-size: 1.3em;
 font-weight: bold;
+text-align: center;
 }
 
 .menu-container a {
@@ -248,7 +244,7 @@ font-weight: bold;
 }
 
 
-@media (min-width: 1180px) {
+@media (min-width: 1280px) {
 
 .header-container, .menu-container, .logo-container {
     display: flex;
@@ -650,17 +646,17 @@ background-color: #F9F2EC;
 
 .news-container {
   flex-direction: column;
-  height: 350 px;
-  background-color: #bbeee7
-  padding: 1em;
+  background-color: #f3e5d8;
+  padding: 7px;
+
   
 }
 
-.news-header {
+.news-container h2 {
   margin: auto;
   font-size: 150%;
   color: #541906;
-  padding-bottom: 0.5em;
+  padding-bottom: 0.8em;
 }
 
 .news {
@@ -702,21 +698,11 @@ background-color: #F9F2EC;
   font-weight: bold;
 } 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.allnews a:hover {
+  color: #541906;
+  text-decoration: underline;
+  font-weight: bold;
+} 
 
   /*FOOTER*/
 
@@ -740,7 +726,7 @@ footer {
 
 .footer_flex span {
     float: left;
-    color: #2f4f4f;
+    color: #F9F2EC;
     margin-bottom: 0px;
     margin-left: 15px;
     margin-right: 15px;
