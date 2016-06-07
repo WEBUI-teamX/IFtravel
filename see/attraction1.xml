@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<Places>
+ 
+  <address_component>
+   <place_id>1</place_id>
+   <location>
+    <lat>48.9229587</lat>
+    <lng>24.7087013</lng>
+   </location>
+   <name>Ратуша</name>
+   <description>Міська Ратуша — 1871 р. В даний час в Ратуші розташований краєзнавчий музей, з досить великою експозицією, в тому числі і експонатами Трипільської культури.</description>
+   <photo_reference>image/if12_ratusha2.jpg</photo_reference>
+  </address_component>
+
+  <address_component>
+   <place_id>2</place_id>
+   <location>
+    <lat>48.9236002</lat>
+    <lng>24.7105038</lng>
+   </location>
+   <name>Кафедральний собор Святого Воскресіння</name>
+   <description>Головний (катедральний) собор Івано-Франківської архієпархії української греко-католицької церкви.</description>
+   <photo_reference>image/fran_sob_vosk11.jpg</photo_reference>
+  </address_component>
+
+  <address_component>
+   <place_id>3</place_id>
+   <location>
+    <lat>48.930616</lat>
+    <lng>24.726582</lng>
+   </location>
+   <name>Костел Христа Царя</name>
+   <description>На сьогоднішній день це єдиний Римо-Католицький храм у місті. Будівництво розпочалося у 1925 році і завершилося у 1932 році.</description>
+   <photo_reference>image/%D0%A0%D0%B8%D0%BC%D0%BE-%D0%BA%D0%B0%D1%82%D0%BE%D0%BB%D0%B8%D1%86%D1%8C%D0%BA%D0%B8%D0%B9_%D0%BA%D0%BE%D1%81%D1%82%D0%B5%D0%BB_(%D0%86%D0%B2%D0%B0%D0%BD%D0%BE-%D0%A4%D1%80%D0%B0%D0%BD%D0%BA%D1%96%D0%B2%D1%81%D1%8C%D0%BA).jpg</photo_reference>
+  </address_component>
+
+  <address_component>
+   <place_id>4</place_id>
+   <location>
+    <lat>48.923610</lat>
+    <lng>24.708410</lng>
+   </location>
+   <name>Івано-Франківський обласний художній музей</name>
+   <description>Колегіальний костел Пресвятої Діви Марії, Станіславська Колеґіата — найдавніший храм Івано-Франківська.</description>
+   <photo_reference>image/449_1_2.jpg</photo_reference>
+  </address_component> 
+
+  <address_component>
+   <place_id>5</place_id>
+   <location>
+    <lat>48.924843</lat>
+    <lng>24.713493</lng>
+   </location>
+   <name>Палац Потоцьких</name>
+   <description>Замок триповерховий, оточений оборонними валами і бастіонами, службовими будівлями та парком. Зараз гарно збереглась лише паркова огорожа та ворота.</description>
+   <photo_reference>image/IMG_7212-620x330.jpg</photo_reference>
+  </address_component> 
+  
+</Places>  
+  
+  
+   
