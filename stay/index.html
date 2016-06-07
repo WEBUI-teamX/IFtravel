@@ -1,240 +1,276 @@
 <!DOCTYPE html>
-<html>
+<html lang="ua">
   <head>
-   <link rel="stylesheet" type="text/css" href="../main.css">
-      <link rel="stylesheet" type="text/css" href="stay.css">
-    <link rel="shortcut icon" href="images/logo.png" type="png">
-   <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>  
-   <title>Туристичний Івано-Франківськ: де зупинитися</title>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+       <meta name="viewport" content="width=device-width">
+        <!--[if lte IE 8]><script src="styles/ie/html5shiv.js"></script><![endif]-->
+      <link rel="shortcut icon" href="image/icon.ico">
+       
+         
+        
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Туристичний Івано-Франківськ</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="index.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
-    
   <body>
       
-      <header>
-            <div class="header-container">
-            
-            <div class="logo-container">
-        
-                <img src="../images/logo.png">
-<p class="slogan">Туристичний <br/> Івано-Франківськ</p>
-                </div>  
-            
+      
+       <!--___________________________Header____________________________________________-->
+    <div class="container nava">
+        <div class="row">
+            <div class="navbar navbar-inhert">
+                <div class="container">
+                    <a href="../index.html"><img class="logo" src="image/logo.png"></a>
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle bottom" data-toggle="collapse" data-target="#menu">
+                            <span class="sr-only"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <br>
+                    </div>
+                        <div class="collapse navbar-collapse margin" id="menu">
+                            <ul class="nav navbar-nav align">
+                                <li><a href="../about/index.html" class="navigation border">Про Івано-Франківськ</a></li>
+                                <li><a href="../see/index.html" class="navigation border">Варто побачити</a></li>
+                                <li><a href="index.html" class="activ border1">Де зупинитись</a></li>
+                                <li><a href="../eat/index.html" class="navigation border">Де поїсти</a></li>
+                                <li><a href="../news/index.html" class="navigation border">Новини</a></li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+          <div id="carousel" class="carousel slide" >
+          <!--Індикатори-->
+          <ol class="carousel-indicators">
+              <li data-target="#carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel" data-slide-to="1"></li>
+              <li data-target="#carousel" data-slide-to="2"></li>
+        </ol>
+          <!--Слайди-->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img class="slider opa" src="image/background.jpg" alt="Franik">
+            </div>
+            <div class="item">
+            <img class="slider opa" src="image/IF.jpg" alt="Beer">
+            </div>
+            <div class="item black">
+                <img class="slider opa1" src="image/slede3.jpg" alt="Europe">
+                
+            </div>
+        </div>
+          
+          <a href="#carousel" class="left carousel-control" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a href="#carousel" class="right carousel-control" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+      </div>
 
+    
+        
+            
                 
 
-                              <ul class="menu-container"> 
-                               <li><a href="../about/index.html">ПРО&nbsp;ІВАНО-ФРАНКІВСЬК</a></li>
-                               <li><a href="../see/index.html">ВАРТО&nbsp;ПОБАЧИТИ</a></li>
-                               <li><a href="../stay/index.html">ДЕ&nbsp;ЗУПИНИТИСЬ</a></li>
-                               <li><a href="../eat/index.html">ДЕ&nbsp;ПОЇСТИ</a></li>
-                               <li><a href="../news/index.html">НОВИНИ</a></li>
-                               <li class="search"><input type="search" size="15" name="search" value="Пошук"></li>
-                             </ul>      
-                          
-                   <h1 class="text"><strong>Івано-Франківськ</strong> я вже їду!</h1>
-              
-                  </div>
-          </header>
-       
     
-  
- 
-  <div id="content" class="my_page">
-          <div class="row">
-              <div class="col-md-12">
-                <section class="section">
-                  <div class="col-sm-5">
-                      <div class="flex">
-                          <div class="sidebar">Де зупинитись</div>
-                        <div class="about">
-                             <div class="ReadText">
-                                 <a href="#hotels" >Готелі</a>
-                             </div> 
-                             <div class="ReadText">        
-                                 <a href="#host">Хостели</a>
-                             </div>
-                             <div class="ReadText">
-                                 <a href="#appartment" target="_self">Квартири подобово</a>   
-                             </div>
-                       </div>
+        
+            
+                
+                    
+                        
+               <br>
+<!-----------------------------------body----------------------------------------------->
+        <div class="col-md-3 col col-sm-3">
+            <form role="form" class="panel panel-danger aside default" id="header">
                       
-                      
-                      <div class="sidebar">Забронювати номер</div>
-                        <div class="about">
-                            <form class="forma" >
-                            <div class="form">
-                                <label>Виберіть готель:</label>
-                            <select>
-                                <option>Готель Надія</option>
+                   <div class="panel-heading">
+                       <h2 class="panel-h2">Замовити номер</h2>
+                   </div>
+                 <div class="panel-body" >
+                <div class="form-group">
+                     <label  for="exampleInputEmail2">Адреса Email:</label>
+                     <input type="email" id="exampleInputEmail2" class="form-control" placeholder="Введіть Email">
+                 </div>
+                 
+                 <div class="form-group">
+                     <label  for="phoneNumber">Номер телефону:</label>
+                     <input  class="form-control" id="phoneNumber" type="text" value="+380">
+                 </div>
+                 <div class="form-group">
+                    <div class="dropdown ">
+                         <label for="select" class="">Виберіть готель:</label>
+                          <select class="select" id="select">
+                               <option>Готель Надія</option>
                                 <option>Готель Станіславів</option>
                                 <option>Готель Під Темплем</option>
                                 <option>Fontush Boutique Hotel</option>
                                 <option>Хостел «Dream+»</option>
-                                <option>1-комнатная квартира</option>
-                            </select>
-                                </div>
-                            <br>
-                                <div class="form">
-                            <label>Приїжжаю:</label>
-                             <input type="date" >
-                            <br>
-                            <label>Від'їжджаю:</label>
-                            <input type="date">
-                            <br>
-                                </div>
-                                <div class="form">
-                                <label>Електронна пошта:</label>
-                                    <input name="email" type="email" placeholder="example@mail.com">
-                                           </div>
-                                <div class="form">
-                                <label>Номер телефону:</label>
-                                <input type="textarea" value="+380"> 
-                                </div>
-                                <div class="form">
-                            <label>Номер*</label>
-                            <select>
-                                <option>Люкс 2488грн</option>
-                                <option>Напівлюкс студіо сімейний 998грн</option>
-                                <option>Напівлюкс двомісний 868грн</option>
-                                <option>Стандарт двомісний 688грн</option>
-                                <option>Стандарт одномісний 468грн</option>
-                            </select>  
-                                   </div>
-                                <input type="submit" value="Надіслати" class="button">
-                                     
-                          </form> 
-                          </div>
-                            
-                  </div > 
+                                <option>1-кімнатна квартира</option>
+                        </select>
                     </div>
-                    <div class="flex">
-                  <div class="col-sm-7">
-                      <div class="TitleText">
-                                         <h1 id="hotels">Готелі міста</h1>
-                      </div>
-                      <div class="article-section">
-                           <img src="image/Nadiya.jpg" border="0" alt="Готель Надія"  class="images">
-                                                 <br>
-                          
-                          <h2>
-                              <a  href="http://www.nadia.if.ua/" target="_blank" class="ReadText">Готель Надія</a>
-                      </h2>
-                          <article>
-                              <p><strong>Готель "Надія"</strong> розташований в центрі Івано-Франківська, за 5 хвилин ходьби від центральної площі. До послуг гостей салон краси, літня тераса з гриль-баром, магазин для гурманів і цілодобова стійка реєстрації. Гостям надається безкоштовний Wi-Fi.</p>
-                                <p>Піша прогулянка від готелю до центрального залізничного вокзалу Івано-Франківська займає 10 хвилин. Відстань до Міжнародного аеропорту Івано-Франківськ становить 4 км. </p>
-                          <p><b>Адреса:</b> вул. Незалежності, 40, м. Івано-Франківськ, Україна</p>
-                          <p><b>Телефон:</b> +38 (0342) 72-70-77</p>
-                          </article>
-                      </div>
-                      
-                      
-                      
-                      <div class="article-section">
-                        <img src="image/stanislaviv.jpg" border="0" alt="Готель Станіславів"  class="images">
-                                                 <br>
-                          
-                          <h2>
-                              <a href="http://www.stanislaviv.org.ua/ua/"  target="_blank" class="ReadText">Готель Станіславів</a>
-                      </h2>
-                          <article>
-                              <p><strong>Готель «Станіславів»</strong> — це чудове місце відпочинку, святкування урочистостей в банкетному залі чи проведення бізнес переговорів у наших конференц-залах. В нашому готелі до Ваших послуг два конференц-зали та кімната для переговорів. Ми зробимо усе, щоб Ваші бізнес-переговори відбулися успішно. </p>
-                                <p>Від центрального залізничного вокзалу Івано-Франківська займає 10 хвилин. Відстань до Міжнародного аеропорту Івано-Франківськ становить 4 км. </p>
-                                <p><b>Адреса:</b> вул. Чорновола, 7, м. Івано-Франківськ, Україна</p>
-                          <p><b>Телефон:</b> + 380 342 75 24 70</p>
-                          </article>
-                      </div>
-                      
-                      <div class="article-section">
-                        <img src="image/Templem.jpg" border="0" alt="Готель Під Темплем"  class="images">
-                                                 <br>
-                          
-                          <h2>
-                              <a href="http://www.tempel.if.ua/index.html" name="hotels" target="_blank" class="ReadText">Готель Під Темплем</a>
-                      </h2>
-                          <article>
-                              <p><strong>Готель "Під Темплем"</strong> розташований в самому центрі історичного Івано-Франківська. До послуг гостей сучасні номери, безкоштовний Wi-Fi, безкоштовна парковка і страви єврейської кухні.</p>
-                                <p>В готелі щодня сервірується сніданок, що включає в себе традиційні страви та різноманітні торти. На обід і вечерю гостям подають страви єврейської кухні, такі як цимес, форшмак, рибний хумус і курячі страви.Поруч з готелем "Під Темплем" налагоджене добре транспортне сполучення з усім містом. </p>
-                          <p><b>Адреса:</b> вул. Незалежності, 40, м. Івано-Франківськ, Україна</p>
-                          <p><b>Телефон:</b> +38 (0342) 72-70-77</p>
-                          </article>
-                      </div>
-                      
-                      
-                      <div class="article-section">
-                        <img src="image/Fontush.jpg" border="0" alt="Fontush Boutique Hotel"  class="images">
-                                                 <br>
-                          
-                          <h2>
-                              <a href="http://www.fontush.if.ua/" target="_blank" class="ReadText">Fontush Boutique Hotel</a>
-                      </h2>
-                          <article>
-                              <p><strong>Бутик-готель "Фонтуш"</strong> розташований за 1 км від парку Шевченка і драматичного театру в місті Івано-Франківськ. До послуг гостей дитячий клуб, безкоштовний бездротовий доступ до Інтернету (Wi-Fi) та приватна автостоянка. Номери бутик-готелю вирізняються елегантним інтер'єром та оформлені в пастельних тонах. </p>
-                                <p>Відстань до залізничного вокзалу міста Івано-Франківськ становить 5 км від готелю, а до Міжнародного аеропорту Івано-Франківськ - 10 км. </p>
-                          <p><b>Адреса:</b> вул. Незалежності, 40, м. Івано-Франківськ, Україна</p>
-                          <p><b>Телефон:</b> +38 (0342) 72-70-77</p>
-                          </article>
-                      </div>
-                      
-                      
-                      
-                      
-                      
-                       <div class="TitleText">
-                                         <h1 >Хостели<a name="host"></a> </h1>
-                      </div>
-                      <div class="article-section">
-                        <img src="image/hostel.jpg" border="0" alt="Fontush Boutique Hotel"  class="images">
-                                                 <br>
-                          
-                          <h2>
-                              <a href="http://dream-plus.if.ua/"  target="_blank" class="ReadText">Хостел «Dream+»</a>
-                      </h2>
-                          <article>
-                              <p><strong>Хостел «Dream+»</strong> гостинно запрошує Вас у столицю карпатського туризму – місто Івано-Франківськ. Щойно відкритий готельний заклад розташований у будинку, який був збудований у 2010 році і знаходиться поблизу залізничного вокзалу (300 м ) та 5 хв. до історичного серця міста.  </p>
-                                <p>У безкоштовному користуванні є кухня,  яка обладнана електрочайником, електричною плитою, мікрохвильовкою, посудом… </p>
-                          <p><b>Адреса:</b> вул. Купчинського, 14, м. Івано-Франківськ, Україна</p>
-                          <p><b>Телефон:</b> +38 (0342) 718-918</p>
-                          </article>
-                      </div>
-                            
-                      
-                                                <div class="TitleText" >
-                                                    <h1>Квартири<a name="appartment"></a></h1>
-                                            </div>
-                      
-                      
-                      <div class="article-section">
-                        <img src="image/kvartira.jpg"  border="0" alt="квартири подобово"  class="images">
-                                                 <br>
+                  </div> 
+                  <div class="form-group">
+                        <label for="date">Приїжжаю</label>
+                         <input type="date" value="" id="date">
+                    </div>
+                    <div class="form-group">
+                        <label for="date1">Відїжжаю</label>
+                        <input type="date">
+                    </div>
+                    <div class="form-group">
+                        <input type="button" value="Замовити" class="btn btn-danger button">
+                    </div>
+                </div>
+            </form >
+        </div>
+      
+    <div class="col-md-9 col col-sm-9 navig">
+             <div>
+  <!-- Навігація -->
+  <ul class="nav nav-tabs" role="tablist">
+    
+    <li class="#profile active "><a href="#profile" class="danger" aria-controls="profile" role="tab" data-toggle="tab">Готелі</a></li>
+    <li><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab" class="danger">Хостели</a></li>
+    <li><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab" class="danger">Квартири подобово</a></li>
+  </ul>
+  <!-- Вміст вкладок -->
+  <div class="tab-content">
+    <!--<div role="tabpanel" class="tab-pane active " id="home"> 
+    </div>-->
+   
+    
+    
+    
+    
+    <div role="tabpanel" class="tab-pane active" id="profile">
+         <div class="content post_section">
+        <img src="image/Nadiya.jpg" alt="hotel Nadiya" class="img-circle img-thumbnail images">
+        <h1 class="headers">Готель Надія</h1>
+        <p><strong>Готель "Надія"</strong> розташований в центрі Івано-Франківська, за 5 хвилин ходьби від центральної площі. До послуг гостей салон краси, літня тераса з гриль-баром, магазин для гурманів і цілодобова стійка реєстрації. Гостям надається безкоштовний Wi-Fi.
+        </p>
+        <p>
+        Піша прогулянка від готелю до центрального залізничного вокзалу Івано-Франківська займає 10 хвилин. Відстань до Міжнародного аеропорту Івано-Франківськ становить 4 км.
+        </p>
+        <div class="slideDown" id="element_id" style="display: none;">
+           <p>За період свого існування, готель мав честь примати у себе тисячі туристів з цілого світу: Молдови, Польщі, Грузії, Великобританії, Канади, США, Ірландії, Нової Зеландії, Нігерії, Німеччини, ОАЕ, Норвегії, Швеції, Анголи, Ізраїлю, Хорватії, Нідерландів, Туреччини, Японії, Китаю та багатьох інших. </p>
+            <p><strong>Адреса:</strong> вул. Незалежності, 40, м. Івано-Франківськ, Україна</p>
+        
+            <p><strong>Телефон:</strong> +38 (0342) 72-70-77 </p>
+        </div>
+        <a href="javascript:void(0)" onclick="showHide('#element_id');return false;">Більше <span class="glyphicon glyphicon-menu-down"></span></a>
+        </div>
+        <div class="content post_section">
+        <img src="image/stanislaviv.jpg" alt="hotel Stanislaviv" class="img-circle img-thumbnail images">
+        <h1 class="headers">Готель Станіславів</h1>
+        <p><strong>Готель «Станіславів»</strong>  це чудове місце відпочинку, святкування урочистостей в банкетному залі чи проведення бізнес переговорів у наших конференц-залах. В нашому готелі до Ваших послуг два конференц-зали та кімната для переговорівобладнані сучасним мультимедійним забезпеченням: телефоном, факсом, широкоекранним LCD-телевізором, проектором, високошвидкісним Інтернетом, комп’ютером та ксероксом. Ми зробимо усе, щоб Ваші бізнес-переговори відбулися успішно. 
+        </p>
+        <p></p>
+       
+        <div id="block_id" style="display: none;">
+            <p><strong>Адреса:</strong> вул. Чорновола, 7, м. Івано-Франківськ, Україна</p>
 
-                          <h2>
-                              <a  href="" target="_blank" class="ReadText">1-комнатная квартира </a>
-                      </h2>
-                          <article>
-                               <p>ПОДОБОВО, погодинно здається комфортабельна 1-кімнатна, дворівнева квартира, яка здаходиться в самому центрі історичного м. Івано-Франківськ, поблизу «стометрівки та ратуші».  </p>
-                                <p>Квартира з євроремонтом, супутникове ТБ, Інтернет WIFI, постіль, посуд, праска, гладильна дошка, пральна машинка, автономне опалення, гаряча вода цілодобово, безкоштовна автостоянка під будинком та платна автостоянка в 5 хв пішки.Надаємо всю звітну документацію.</p>
-                          <p><b>Адреса:</b> Бельведерська 8, м. Івано-Франківськ, Україна</p>
-                          <p><b>Телефон:</b> +380 95 827 5350</p>
-                          </article>
-                      </div>
-                      
-                      
-                      
-                    </div>
-                    
-                    
-                    
-                    
-                    
-                </section>
-              </div>
-          </div>
-         </div>
-     
-  <footer>
+            <p><strong>Телефон:</strong> + 380 342 75 24 70
+        </p>
+        </div>
+        
+            <a href="javascript:void(0)" onclick="diplay_hide('#block_id');return false;">Більше <span class="glyphicon glyphicon-menu-down"></span></a>
+        </div>
+        
+        <div class="content post_section">
+        <img src="image/Templem.jpg" alt="hotel Pid Templem" class="img-circle img-thumbnail images">
+        <h1 class="headers">Готель Під Темплем</h1>
+        <p><strong>Готель "Під Темплем"</strong> розташований в самому центрі історичного Івано-Франківська. До послуг гостей сучасні номери, безкоштовний Wi-Fi, безкоштовна парковка і страви єврейської кухні.
+        </p>
+        <p>
+        В готелі щодня сервірується сніданок, що включає в себе традиційні страви та різноманітні торти. На обід і вечерю гостям подають страви єврейської кухні. Поруч з готелем "Під Темплем" налагоджене добре транспортне сполучення з усім містом. 
+        </p>
+        <div id="block_id1" style="display: none;">
+            <p>У кожному номері зручні ліжка, журнальний стіл, шафа, вішак для верхнього одягу. Ванна кімната обладнана сучасною якісною сантехнікою.
+                Плата за проживання в готелі стягується у відповідності з єдиною розрахунковою годиною - 12:00 годин поточної доби за київським часом. Час заїзду в готель - 12:00 за київським часом. При виїзді з готелю необхідно звільнити номер до 12-00.</p>
+            <p><strong>Адреса:</strong> вул. Незалежності, 40, м. Івано-Франківськ, Україна</p>
+            <p><strong>Телефон:</strong> +38 (0342) 72-70-77</p>
+        </div>
+        
+            <a href="javascript:void(0)" onclick="diplay_hide1('#block_id1');return false;">Більше <span class="glyphicon glyphicon-menu-down"></span></a>
+        </div>
+        
+        <div class="content post_section">
+        <img src="image/Fontush.jpg" alt="Fontush Boutique Hotel" class="img-circle img-thumbnail images">
+        <h1 class="headers">Fontush Boutique Hotel</h1>
+        <p><strong>Бутик-готель "Фонтуш"</strong> розташований за 1 км від парку Шевченка і драматичного театру в місті Івано-Франківськ. До послуг гостей дитячий клуб, безкоштовний бездротовий доступ до Інтернету (Wi-Fi) та приватна автостоянка. 
+        </p>
+        <p>
+        Відстань до залізничного вокзалу міста Івано-Франківськ становить 5 км від готелю, а до Міжнародного аеропорту Івано-Франківськ - 10 км.
+        </p>
+        <div id="block_id2" style="display: none;">
+            <p> ФОНТУШ БУТІК ГОТЕЛЬ – перший в Івано-Франківську готель, який повністю відповідає своїй класифікації. Це тип невеликого готелю : особливо стильний, розкішний, з високим рівнем обслуговування та ексклюзивним  інтер’єром.</p>
+             <p><strong>Адреса:</strong> вул. Незалежності, 40, м. Івано-Франківськ, Україна</p>
+            <p><strong>Телефон:</strong> +38 (0342) 72-70-77</p>
+        </div>
+        
+            <a href="javascript:void(0)" onclick="diplay_hide2('#block_id2');return false;">Більше <span class="glyphicon glyphicon-menu-down"></span></a>
+        </div>
+       
+        
+        
+    </div>
+    
+    <div role="tabpanel" class="tab-pane" id="messages">
+         <div class="content post_section">
+        <img src="image/hostel.jpg" alt="hotel Nadiya" class="img-circle img-thumbnail images">
+        <h1 class="headers">Хостел «Dream+»</h1>
+             <p><strong>Хостел «Dream+»</strong> гостинно запрошує Вас у столицю карпатського туризму – місто Івано-Франківськ. Щойно відкритий готельний заклад розташований у будинку, який був збудований у 2010 році і знаходиться поблизу залізничного вокзалу (300 м ) та 5 хв. до історичного серця міста. Зручне розташування дасть змогу не тільки обходитись без транспортних засобів, а й вигідно зберігати свої речі. Він вразить Вас чистотою, охайністю та домашнім затишком.
+        </p>
+        
+        <div id="block_id3" style="display: none;">
+            <p> У нас ви зможете зігрітись чашечкою запашної кави або чаю, у приємній вітальні переглянути фільми та скористатися послугами  WI-FI. У безкоштовному користуванні є кухня,  яка обладнана електрочайником, електричною плитою, мікрохвильовкою, посудом…</p>
+            <p><strong>Адреса:</strong> вул. Незалежності, 40, м. Івано-Франківськ, Україна</p>
+            <p><strong>Телефон:</strong> +38 (0342) 72-70-77</p>
+        </div>
+        
+            <a href="javascript:void(0)" onclick="diplay_hide3('#block_id3');return false;">Більше <span class="glyphicon glyphicon-menu-down"></span></a>
+        </div>
+        
+        
+    </div>
+    <div role="tabpanel" class="tab-pane" id="settings">
+        <div class="content post_section">
+        <img src="image/kvartira.jpg" alt="hotel Nadiya" class="img-circle img-thumbnail images">
+        <h1 class="headers">Оренда квартир подобово</h1>
+             <p>Унікальне розташування квартири класу люкс, яка має забудову в стилі польсько-австрійського класицизму. 3-й поверх, під'їзд закривається на кодовий замок, знаходиться в самому серці старовинного міста Івано-Франківська.
+        </p>
+        
+        <div id="block_id4" style="display: none;">
+            <p> Поруч: знаходяться пам'ятники архітектури, музеї, магазини, розважальні центри, клуби, гіпермаркети, продуктовий і речовий ринок - 10 хв., кафе і ресторани - 2 хв., парк Шевченка, велике міське озеро з чудовим краєвидом </p>
+            <p><strong>Адреса:</strong> Мазепи-Січових Стрільців, № 3,  м. Івано-Франківськ, Україна</p>
+            <p><strong>Телефон:</strong> +38 (0342) 72-70-77</p>
+        </div>
+            <a href="javascript:void(0)" onclick="diplay_hide4('#block_id4');return false;">Більше <span class="glyphicon glyphicon-menu-down"></span></a>
+        </div>
+    </div>
+  </div>
+</div>
+</div>
+    
+       <div class="boot">
+       </div>
+        <footer>
        <div class="footer_flex">
-         <div class="adress">
+         <div class="adress" name="adress">
                             <span>
                             Івано-Франківськ<br />
                             Нечуя-Левицького, 19<br />
@@ -254,23 +290,116 @@
          </div>
          <div>
          <span>Ми в соц.мережах:</span>
-                          <a href="https://www.facebook.com/"> 
+                            <a href="https://www.facebook.com/"> 
                                 <img alt="" src="../images/facebook.jpg"> 
                             </a>
                             <a href="https://twitter.com/"> 
                                 <img alt="#" src="../images/twitter.jpg"> 
                             </a>
-                            <a href="http://vk.com/"> 
+                            <a hre f="http://vk.com/"> 
                                 <img alt="" src="../images/vk.jpg"> 
-                            </a>   
+                            </a>           
          </div>  
          </div>
           
         
 
        
-    </footer>
+    </footer>  
+             
+        
+            
+                
+                    
+                        
+    
+              
+           
+                
+    
+     
+      
+       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    
+        <script type="text/javascript">
+        function diplay_hide (blockId)
+       
+        { 
+    if ($(blockId).css('display') == 'none') 
+        { 
+            $(blockId).animate({height: 'show'}, 500); 
+        } 
+    else 
+        {     
+            $(blockId).animate({height: 'hide'}, 500); 
+        }} 
+           
+        function showHide (element_id)
+        
+        { 
+    if ($(element_id).css('display') == 'none') 
+        { 
+            $(element_id).animate({height: 'show'}, 500); 
+        } 
+    else 
+        {     
+            $(element_id).animate({height: 'hide'}, 500); 
+        }}   
+        
+        function diplay_hide1 (blockId1)
 
+        { 
+    if ($(blockId1).css('display') == 'none') 
+        { 
+            $(blockId1).animate({height: 'show'}, 500); 
+        } 
+    else 
+        {     
+            $(blockId1).animate({height: 'hide'}, 500); 
+        }} 
+        
+        function diplay_hide2 (blockId2)
 
-</body>
-</html> 
+        { 
+    if ($(blockId2).css('display') == 'none') 
+        { 
+            $(blockId2).animate({height: 'show'}, 500); 
+        } 
+    else 
+        {     
+            $(blockId2).animate({height: 'hide'}, 500); 
+        }} 
+        
+        function diplay_hide3 (blockId3)
+
+        { 
+    if ($(blockId3).css('display') == 'none') 
+        { 
+            $(blockId3).animate({height: 'show'}, 500); 
+        } 
+    else 
+        {     
+            $(blockId3).animate({height: 'hide'}, 500); 
+        }} 
+        
+        function diplay_hide4 (blockId4)
+
+        { 
+    if ($(blockId4).css('display') == 'none') 
+        { 
+            $(blockId4).animate({height: 'show'}, 500); 
+        } 
+    else 
+        {     
+            $(blockId4).animate({height: 'hide'}, 500); 
+        }} 
+            
+</script>
+    
+    <script type="text/javascript" src="js/jquery.sticky.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
