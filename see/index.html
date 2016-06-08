@@ -498,7 +498,7 @@
 					  var name = eachMarker.find("name").text();
 					  var content = eachMarker.find("description").text();
 					  var photo = eachMarker.find("photo_reference").text();  
-					  var html = "<div><strong>" + name + "</strong><br />" + content +"<br /><img src='"+ photo +"' width = 120 height = 120 align = middle></div>";
+					  var html = "<div><strong>" + name + "</strong><br /><img src='"+ photo +"' width = 30 height = 30>" + content +"</div>";
 					  var marker = addMarker(html, markerCoords);
 				  });
 			  });
