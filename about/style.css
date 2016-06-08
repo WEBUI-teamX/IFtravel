@@ -354,6 +354,12 @@ footer {
 	color: #2f4f4f;
 	font-size: 12px;  
 }
-
+li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+   ul {
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+   }
  
 
